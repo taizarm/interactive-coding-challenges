@@ -5,10 +5,4 @@ class UniqueChars(object):
         if text is None:
             return False
 
-        chars = []
-        for char in text:
-            if char in chars:
-                return False
-            chars.append(char)
-
-        return True
+        return len(set(text)) == len(text)
