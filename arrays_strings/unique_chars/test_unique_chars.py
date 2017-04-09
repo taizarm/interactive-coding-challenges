@@ -1,5 +1,5 @@
 from nose.tools import assert_equal
-
+from unique_chars import UniqueChars
 
 class TestUniqueChars(object):
 
