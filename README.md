@@ -5,7 +5,7 @@
 
 ## April 2017 - Huge Update!
 
-**Overhauled** to now include **120 challenges and solutions** and added [Anki Flash Cards](#anki-flashcards-coding-and-design).
+[**Overhauled**](https://github.com/donnemartin/interactive-coding-challenges/pull/153) to now include **120 challenges and solutions** and added [Anki flashcards](#anki-flashcards-coding-and-design).
 
 Also included are **unit tested reference implementations** of various [data structures](#reference-implementations-data-structures) and [algorithms](#reference-implementations-algorithms).
 
@@ -331,7 +331,7 @@ Unit tested, fully functional implementations of the following algorithms:
 | Implement fibonacci recursively, dynamically, and iteratively | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/fibonacci/fibonacci_solution.ipynb) |
 | Maximize items placed in a knapsack | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_01/knapsack_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_01/knapsack_solution.ipynb) |
 | Maximize unbounded items placed in a knapsack | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_unbounded/knapsack_unbounded_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/knapsack_unbounded/knapsack_unbounded_solution.ipynb) |
-| Find the longest common substring | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_substring/longest_common_substr_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_substring/longest_common_substr_solution.ipynb) |
+| Find the longest common subsequence | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_subsequence/longest_common_subseq_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_subsequence/longest_common_subseq_solution.ipynb) |
 | Find the longest increasing subsequence | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_inc_subseq/longest_inc_subseq_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_inc_subseq/longest_inc_subseq_solution.ipynb) |
 | Minimize the cost of matrix multiplication | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/matrix_mult/find_min_cost_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/matrix_mult/find_min_cost_solution.ipynb) |
 | Maximize stock prices given k transactions | [Challenge](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/max_profit_k/max_profit_challenge.ipynb)│[Solution](http://nbviewer.ipython.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/max_profit_k/max_profit_solution.ipynb) |
@@ -443,7 +443,7 @@ interactive-coding-challenges        # Repo
 ├─ ...
 ```
 
-<i>\*The notebooks (.pynb) read/write the associated unit test (.py) file.</i>
+<i>\*The notebooks (.ipynb) read/write the associated unit test (.py) file.</i>
 
 
 ## Notebook Installation
@@ -572,6 +572,8 @@ Feel free to contact me to discuss any issues, questions, or comments.
 My contact info can be found on my [GitHub page](https://github.com/donnemartin).
 
 ## License
+
+*I am providing code and resources in this repository to you under an open source license.  Because this is my personal repository, the license you receive to my code and resources is from me and not my employer (Facebook).*
 
     Copyright 2015 Donne Martin
 
