@@ -1,4 +1,5 @@
 from nose.tools import assert_equal
+from permutation_solution import Permutations
 
 
 class TestPermutation(object):
